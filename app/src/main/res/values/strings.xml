@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">GKUser</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!-- navigation drawer item labels  -->
+    <string name="nav_item_cart">Cart</string>
+    <string name="nav_item_order_history">Order history</string>
+    <string name="nav_item_order_status">Order status</string>
+    <string name="nav_item_profie">Profile</string>
+    <string name="nav_item_login">Login</string>
+    <string name="nav_item_who_we_are">Who we are</string>
+    <string name="nav_item_how_it_works">How it works</string>
+    <string name="nav_item_tandC">Terms and conditions</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_cart</item>
+        <item>@string/nav_item_order_history</item>
+        <item>@string/nav_item_order_status</item>
+        <item>@string/nav_item_profie</item>
+        <item>@string/nav_item_login</item>
+        <item>@string/nav_item_who_we_are</item>
+        <item>@string/nav_item_how_it_works</item>
+        <item>@string/nav_item_tandC</item>
+
+    </string-array>
+
+    <string name="title_cart">@string/nav_item_cart</string>
+    <string name="title_order_history">@string/nav_item_order_history</string>
+    <string name="title_order_status">@string/nav_item_order_status</string>
+
+    <string name="title_profile">@string/nav_item_profie</string>
+    <string name="title_login">@string/nav_item_login</string>
+    <string name="title_who_we_are">@string/nav_item_who_we_are</string>
+    <string name="title_how_it_works">@string/nav_item_how_it_works</string>
+    <string name="title_tandc">@string/nav_item_tandC</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+</resources>
