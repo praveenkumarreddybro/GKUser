@@ -36,9 +36,51 @@
     <string name="title_tandc">@string/nav_item_tandC</string>
 
 
-
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="action_search">Search</string>
     <string name="action_settings">Settings</string>
+
+    <string name="forgot">FORGOT PASSWORD? </string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="btn_sign_up">Sigin in</string>>
+    <string name="err_msg_email">Enter valid email addresss</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="reset">Reset Password</string>
+
+    <string name="mandatory">All fields are mandatory.</string>
+    <string name="current">Old password</string>
+    <string name="NewPassword">New password</string>
+    <string name="ConfirmNewPasword">Confirm password</string>
+    <string name="forgotPasswords">Forgot Password</string>
+    <string name="submit">Submit</string>
+
+    <string name="err_msg_password_char">Enter atleast one char</string>
+    <string name="err_msg_password_digit">Enter atleast one digit </string>
+    <string name="err_msg_password_length">password should contain atleast 8 or more alphanumberic.</string>
+    <string name="validpasssword">Please enter valid</string>
+    <string name="confimation">Confrimation Message</string>
+    <string name="validationMsg">Validation Failed!</string>
+    <string name="sucessfulllogin">Welcome </string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+
+
+    <string name="first">First name</string>
+    <string name="last">Last name</string>
+    <string name="email">Email id</string>
+    <string name="password">Password</string>
+    <string name="fixed">Fixed</string>
+    <string name="mobile">Mobile</string>
+    <string name="address">Address</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="zip">Zip</string>
+    <string name="tandc">By Signing up, I agree to </string>
+    <string name="terms_of_Service">Terms of Service</string>
+    <string name="and">and</string>
+    <string name="privacy">Privacy Policy.</string>
 </resources>

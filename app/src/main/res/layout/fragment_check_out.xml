@@ -1,0 +1,145 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.effone.gkuser.Fragments.CheckOutFragment"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price Summary"
+            android:textSize="18sp"
+            android:textColor="@color/polygone"
+            android:textStyle="bold"
+            android:id="@+id/price_summary"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/price_summary"
+            android:background="@drawable/rounded_image_corner"
+            android:padding="5dp"
+            android:id="@+id/relativeLayout3">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salads (20) :"
+                android:textSize="18dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:id="@+id/tv_check_salad_quantity"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Topping:"
+                android:textSize="18dp"
+
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_below="@+id/tv_check_salad_quantity"
+                android:id="@+id/tv_check_topping"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estimated Total:"
+                android:padding="5dp"
+                android:id="@+id/estimated"
+
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_below="@+id/tv_check_topping"
+                android:textColor="@color/polygone"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tv_check_salad_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="430.00"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_alignBottom="@+id/tv_check_salad_quantity"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/tv_check_toppings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignBottom="@+id/tv_check_topping"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:text="100.00"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_below="@+id/tv_check_salad_quantity" />
+            <TextView
+                android:id="@+id/tv_check_estimated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="642.00"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_alignBottom="@+id/estimated"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignLeft="@+id/tv_check_toppings"
+                android:layout_alignStart="@+id/tv_check_toppings"
+                android:layout_below="@+id/tv_check_topping" />
+            <TextView
+                android:id="@+id/tv_submit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="bottom"
+                android:layout_margin="15dp"
+                android:background="@drawable/button_rounded_corner"
+                android:gravity="center"
+                android:text="@string/submit"
+                android:layout_below="@+id/tv_check_estimated"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salad Summary"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/polygone"
+            android:textStyle="bold"
+            android:id="@+id/tv_check_salad_summary"
+            android:layout_below="@+id/relativeLayout3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="18sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_image_corner"
+            android:layout_below="@+id/tv_check_salad_summary"
+            >
+           <ListView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/lv_check_order_items"></ListView>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>
